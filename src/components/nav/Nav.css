@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  padding: 25px 50px;
+  position: relative; }
+  nav .home-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    bottom: -40px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    color: white;
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 200% 100%;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    transition: background 0.5s ease-in-out; }
+    nav .home-link:hover {
+      background-position: 0 0; }
+  nav a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black; }
+    nav a:nth-of-type(3) {
+      margin-left: 30px; }

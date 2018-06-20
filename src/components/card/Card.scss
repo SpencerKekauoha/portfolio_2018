@@ -1,0 +1,46 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .card {
+    border: 1px green solid;
+    max-width: 835px;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    border: 1px black solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    &:hover .card-top {
+      background: #ff9966;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    &-top {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 50px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom: 1px black solid;
+      background: white;
+    }
+
+    &-image {
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 150px 0;
+    }
+
+    &-bottom {
+
+    }
+  }
+}
