@@ -1,13 +1,18 @@
 import React from 'react';
 
-// import './Nav.css';
+import Card from '../card/Card';
+import './work.css';
 
 class Work extends React.Component {
 
   render() {
+    console.log(this.props, 'work');
 
     return (
-      <h1>Work</h1>
+      <div className="work-gallery">
+        <h2>All Works</h2>
+        <Card work={this.props.works} url={this.props} />
+      </div>
     )
   }
 }

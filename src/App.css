@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .App {
   text-align: center;
@@ -28,4 +29,22 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+h1 {
+  line-height: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
