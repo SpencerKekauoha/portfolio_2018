@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ImageGrid from '../image-grid/ImageGrid';
 import './single-work.css';
 
 class SingleWork extends React.Component {
@@ -44,13 +45,14 @@ class SingleWork extends React.Component {
 
           <div className="description-card">
             <div className="description-left">
-              <a href={project.projectLink} target="_blank">Visit Site</a>
-              {project.projectDescription}
+              <a href={project.projectLink} target="_blank">VISIT SITE ————</a>
+              <p>{project.projectDescription}</p>
             </div>
             <div className="tags">
               {techList}
             </div>
           </div>
+          <ImageGrid images={project.imageGallery}></ImageGrid>
         </div>
          : 'Loading'
     )

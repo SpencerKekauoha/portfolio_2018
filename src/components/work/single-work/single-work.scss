@@ -1,8 +1,12 @@
 .single-project {
-  padding: 100px 100px;
+  padding: 100px 30px 0 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @media only screen and (min-width: 768px) {
+    padding: 100px 100px 0 100px;
+  }
 
   .project-card {
     max-width: 835px;
@@ -11,6 +15,7 @@
     -moz-box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
     box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
     border-radius: 5px;
+    margin-bottom: 50px;
   }
 
   .gradient-bar {
@@ -28,7 +33,11 @@
     justify-content: space-between;
     border: 1px black solid;
     border-top: none;
-    padding: 30px 50px;
+    padding: 30px 10px;
+
+    @media only screen and (min-width: 768px) {
+      padding: 30px 50px;
+    }
   }
 
   .project-card-bottom {
@@ -38,5 +47,67 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    @media only screen and (min-width: 768px) {
+      flex-direction: row;
+      max-width: 750px;
+    }
+
+    .description-left {
+      width: 100%;
+      text-align: left;
+
+      @media only screen and (min-width: 768px) {
+        width: 75%;
+      }
+
+      a {
+        color: #FF7090;
+        font-size: 15px;
+        text-decoration: none;
+        transition: 0.25s;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    margin-top: 40px;
+
+    @media only screen and (min-width: 768px) {
+      justify-content: flex-start;
+    }
+  }
+
+  .tag {
+    display: flex;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 40px;
+    height: 25px;
+    padding: 5px 15px;
+    margin: 0 10px 20px 10px;
   }
 }

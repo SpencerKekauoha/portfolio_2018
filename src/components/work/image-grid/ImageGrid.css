@@ -1,0 +1,17 @@
+.image-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .image-grid .image-grid-card {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px black solid;
+    -webkit-box-shadow: 8px 9px 0px 3px #ededed;
+    -moz-box-shadow: 8px 9px 0px 3px #ededed;
+    box-shadow: 8px 9px 0px 3px #ededed; }
