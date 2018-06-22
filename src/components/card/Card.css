@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (max-width: 768px) {
+    .card-container {
+      margin: 0 40px; } }
   .card-container .card {
     border: 1px green solid;
     max-width: 835px;
@@ -39,6 +42,9 @@
       display: flex;
       flex-direction: row;
       padding: 40px 50px 30px 50px; }
+      @media only screen and (max-width: 768px) {
+        .card-container .card-bottom {
+          flex-direction: column; } }
     .card-container .card .description {
       text-align: left;
       width: 100%; }
@@ -52,6 +58,9 @@
       align-items: center;
       align-self: flex-start;
       padding-left: 20px; }
+      @media only screen and (max-width: 768px) {
+        .card-container .card .tags {
+          padding-left: 0; } }
     .card-container .card .tag {
       display: flex;
       align-items: center;
@@ -60,3 +69,6 @@
       height: 25px;
       padding: 5px 15px;
       margin: 0 10px 20px 10px; }
+      @media only screen and (max-width: 768px) {
+        .card-container .card .tag {
+          margin-left: 0; } }

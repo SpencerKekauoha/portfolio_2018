@@ -24,6 +24,10 @@
     -webkit-box-shadow: 8px 9px 0px 3px #ededed;
     -moz-box-shadow: 8px 9px 0px 3px #ededed;
     box-shadow: 8px 9px 0px 3px #ededed; }
+    @media only screen and (max-width: 650px) {
+      .about .about-card {
+        height: 75vh;
+        margin-bottom: -270px; } }
   .about .about-information {
     position: relative;
     display: flex;
@@ -38,11 +42,21 @@
     .about .about-information .container {
       display: flex;
       flex-direction: row; }
+      @media only screen and (max-width: 768px) {
+        .about .about-information .container {
+          flex-direction: column; } }
       .about .about-information .container h3 {
         padding-right: 20px;
         font-size: 30px; }
+        @media only screen and (max-width: 768px) {
+          .about .about-information .container h3 {
+            margin-top: 20px; } }
       .about .about-information .container p {
         padding: 0 50px; }
+        @media only screen and (max-width: 768px) {
+          .about .about-information .container p {
+            padding: 0;
+            margin: 20px 0; } }
       .about .about-information .container .contact-info {
         width: 100%; }
         .about .about-information .container .contact-info h5 {

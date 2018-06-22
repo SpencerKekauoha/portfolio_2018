@@ -5,6 +5,11 @@
   justify-content: space-between;
   max-width: 835px;
   width: 100%;
+  padding-bottom: 50px;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
 
   .image-grid-card {
     height: 200px;
@@ -18,5 +23,9 @@
     -webkit-box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
     -moz-box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
     box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
+
+    @media only screen and (max-width: 768px) {
+      margin: 0 30px 30px 30px;
+    }
   }
 }

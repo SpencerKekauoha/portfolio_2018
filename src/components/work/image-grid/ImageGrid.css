@@ -4,7 +4,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 835px;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 50px; }
+  @media only screen and (max-width: 768px) {
+    .image-grid {
+      justify-content: center; } }
   .image-grid .image-grid-card {
     height: 200px;
     width: 200px;
@@ -16,3 +20,6 @@
     -webkit-box-shadow: 8px 9px 0px 3px #ededed;
     -moz-box-shadow: 8px 9px 0px 3px #ededed;
     box-shadow: 8px 9px 0px 3px #ededed; }
+    @media only screen and (max-width: 768px) {
+      .image-grid .image-grid-card {
+        margin: 0 30px 30px 30px; } }

@@ -29,7 +29,7 @@ class Nav extends React.Component {
             'Javascript',
             'SCSS',
             'JSX',
-            'Weather Underground API'
+            'Weather API',
           ],
           featuredImage: dailyBriefImg,
           imageGallery: [dailyBriefImg, cubiscanImg, dailyBriefImg],

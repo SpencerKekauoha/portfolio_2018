@@ -1,6 +1,10 @@
 .work-gallery {
   padding: 100px 50px;
 
+  @media only screen and (max-width: 768px) {
+    padding: 100px 0px;
+  }
+
   h2 {
     text-align: center;
     margin: 0 50px;
@@ -14,6 +18,10 @@
 
   .link {
     margin: 50px 50px;
+
+    @media only screen and (max-width: 768px) {
+      margin: 20px 20px;
+    }
   }
 
   .card {
@@ -32,5 +40,11 @@
 
   .card-bottom {
     padding: 30px 0 20px 0;
+  }
+
+  .tags {
+    @media only screen and (max-width: 768px) {
+      margin-left: 20px;
+    }
   }
 }
