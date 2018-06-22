@@ -3,7 +3,6 @@ import React from 'react';
 import './ImageGrid.css';
 
 function ImageGrid(props) {
-
   let images = props.images.map((img, key) => {
     const backgroundImageStyle = {
       backgroundImage: `url(${img})`

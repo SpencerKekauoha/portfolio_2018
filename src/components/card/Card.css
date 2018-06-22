@@ -17,12 +17,8 @@
     -moz-box-shadow: 8px 9px 0px 3px #ededed;
     box-shadow: 8px 9px 0px 3px #ededed; }
     .card-container .card:hover .card-top {
-      background: #ff9966;
-      /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
-      /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #ff5e62, #ff9966);
-      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+      background: #ff9169;
+      background: linear-gradient(117deg, #ff9169 0%, #ff61a4 100%); }
     .card-container .card-top {
       display: flex;
       flex-direction: row;
@@ -34,14 +30,15 @@
       border-bottom: 1px black solid;
       background: white; }
     .card-container .card-image {
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
-      padding: 150px 0; }
+      padding: 150px 0;
+      border-bottom: 1px black solid; }
     .card-container .card-bottom {
       display: flex;
       flex-direction: row;
-      padding: 30px 50px; }
+      padding: 40px 50px 30px 50px; }
     .card-container .card .description {
       text-align: left;
       width: 100%; }
@@ -54,7 +51,7 @@
       justify-content: flex-start;
       align-items: center;
       align-self: flex-start;
-      padding-left: 30px; }
+      padding-left: 20px; }
     .card-container .card .tag {
       display: flex;
       align-items: center;

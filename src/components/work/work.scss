@@ -1,8 +1,8 @@
 .work-gallery {
-  padding: 100px 100px;
+  padding: 100px 50px;
 
   h2 {
-    text-align: left;
+    text-align: center;
     margin: 0 50px;
   }
 
@@ -12,13 +12,25 @@
     flex-wrap: wrap;
   }
 
-  .card {
-    max-width: 300px;
-    margin-top: 0;
+  .link {
     margin: 50px 50px;
   }
 
+  .card {
+    max-width: 300px;
+    margin-top: 0;
+
+    &-image {
+      padding: 80px 0;
+      border-bottom: 1px black solid;
+    }
+
+    &-top {
+      padding: 30px 28px;
+    }
+  }
+
   .card-bottom {
-    padding: 20px 0;
+    padding: 30px 0 20px 0;
   }
 }

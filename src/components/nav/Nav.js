@@ -32,7 +32,7 @@ class Nav extends React.Component {
             'Weather Underground API'
           ],
           featuredImage: dailyBriefImg,
-          imageGallery: [dailyBriefImg, cubiscanImg, dailyBriefImg, dailyBriefImg],
+          imageGallery: [dailyBriefImg, cubiscanImg, dailyBriefImg],
           projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
         },
         {
@@ -112,7 +112,7 @@ class Nav extends React.Component {
       <HashRouter>
         <main>
           <nav>
-            <Link className="home-link" to="/">HOME</Link>
+            <Link className="home-link" to="/"></Link>
             <Link className="link" to="/work">WORK</Link>
             <Link className="link" to="/about">GET IN TOUCH</Link>
           </nav>

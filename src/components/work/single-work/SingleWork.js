@@ -45,7 +45,7 @@ class SingleWork extends React.Component {
 
           <div className="description-card">
             <div className="description-left">
-              <a href={project.projectLink} target="_blank">VISIT SITE ————</a>
+              <a href={project.projectLink} target="_blank">VISIT SITE</a>
               <p>{project.projectDescription}</p>
             </div>
             <div className="tags">

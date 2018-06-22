@@ -16,12 +16,8 @@ nav {
     width: 80px;
     border-radius: 50px;
     color: white;
-    background: #ff9966;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff5e62, #ff9966);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ff9169;
+    background: linear-gradient(117deg, #ff9169 0%, #ff61a4 100%);
     background-size: 200% 100%;
     background-position: right 0;
     background-repeat: no-repeat;
@@ -30,6 +26,7 @@ nav {
       background-position: 0 0; }
   nav a {
     font-weight: bold;
+    font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
     color: black; }

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import './Card.css';
 
 function Card(props) {
-  console.log('in card', props)
 
   let cards = props.work.map((card, key) => {
     const backgroundImageStyle = {

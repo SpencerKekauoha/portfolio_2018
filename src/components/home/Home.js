@@ -6,7 +6,6 @@ import Card from '../card/Card';
 
 class Home extends React.Component {
   render() {
-    console.log(this.props, 'home');
     return (
       <div className="home">
         <Hero />
