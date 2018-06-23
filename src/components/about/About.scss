@@ -1,24 +1,12 @@
 .about {
-  position: relative;
-  height: calc(100vh - 70px);
-
-  .about-top {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 50%;
-  }
-
-  .about-bottom {
-    height: 50%;
-    background-image: url('../../assets/img/ocean_no_opacity.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  height: 100%;
 
   .about-card {
-    margin-bottom: -150px;
-    height: 300px;
+    padding: 60px 0 ;
     max-width: 835px;
     width: 100%;
     margin-left: 50px;
@@ -29,11 +17,6 @@
     -webkit-box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
     -moz-box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
     box-shadow: 8px 9px 0px 3px rgba(237,237,237,1);
-
-    @media only screen and (max-width: 650px) {
-      height: 75vh;
-      margin-bottom: -270px;
-    }
   }
 
   .about-information {
@@ -47,7 +30,7 @@
 
     img {
       position: absolute;
-      top: -40px;
+      top: -100px;
     }
 
     .container {
@@ -63,6 +46,7 @@
         font-size: 30px;
 
         @media only screen and (max-width: 768px) {
+          font-size: 22px;
           margin-top: 20px;
         }
       }

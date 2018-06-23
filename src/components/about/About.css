@@ -1,19 +1,11 @@
 .about {
-  position: relative;
-  height: calc(100vh - 70px); }
-  .about .about-top {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 50%; }
-  .about .about-bottom {
-    height: 50%;
-    background-image: url("../../assets/img/ocean_no_opacity.png");
-    background-repeat: no-repeat;
-    background-size: cover; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  height: 100%; }
   .about .about-card {
-    margin-bottom: -150px;
-    height: 300px;
+    padding: 60px 0;
     max-width: 835px;
     width: 100%;
     margin-left: 50px;
@@ -24,10 +16,6 @@
     -webkit-box-shadow: 8px 9px 0px 3px #ededed;
     -moz-box-shadow: 8px 9px 0px 3px #ededed;
     box-shadow: 8px 9px 0px 3px #ededed; }
-    @media only screen and (max-width: 650px) {
-      .about .about-card {
-        height: 75vh;
-        margin-bottom: -270px; } }
   .about .about-information {
     position: relative;
     display: flex;
@@ -38,7 +26,7 @@
     text-align: left; }
     .about .about-information img {
       position: absolute;
-      top: -40px; }
+      top: -100px; }
     .about .about-information .container {
       display: flex;
       flex-direction: row; }
@@ -50,6 +38,7 @@
         font-size: 30px; }
         @media only screen and (max-width: 768px) {
           .about .about-information .container h3 {
+            font-size: 22px;
             margin-top: 20px; } }
       .about .about-information .container p {
         padding: 0 50px; }
