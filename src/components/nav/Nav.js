@@ -21,6 +21,14 @@ import vertiFeatured from '../../assets/img/verti_featured.png';
 import verti1 from '../../assets/img/verti_1.png';
 import verti2 from '../../assets/img/verti_2.png';
 import verti3 from '../../assets/img/verti_3.png';
+import stratFeatured from '../../assets/img/strat_featured.png';
+import strat1 from '../../assets/img/strat_1.png';
+import strat2 from '../../assets/img/strat_2.png';
+import strat3 from '../../assets/img/strat_3.png';
+import performantFeatured from '../../assets/img/performant_featured.png';
+import performant1 from '../../assets/img/performant_1.png';
+import performant2 from '../../assets/img/performant_2.png';
+import performant3 from '../../assets/img/performant_3.png';
 
 
 import './Nav.css';
@@ -104,20 +112,37 @@ class Nav extends React.Component {
         },
         {
           id: 4,
-          featured: false,
-          projectName: 'Cubiscan',
+          featured: true,
+          projectName: 'Strategic Builders',
           projectType: 'Client Work',
+          projectLink: 'http://strategicbuilders.com/',
           tech: [
-            'Vue.js',
-            'HTML',
-            'SCSS',
             'Javascript',
+            'SCSS',
+            'jQuery',
             'Wordpress',
-            'PHP/Blade',
-
+            'PHP'
           ],
-          featuredImage: cubiscanImg,
-          projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          featuredImage: stratFeatured,
+          imageGallery: [strat1, strat2, strat3],
+          projectDescription: 'Strategic Builders specializes in housing development. Fluid took them on as a client to completely rebuild their website.  Provided with an Adobe Illustrator file, I developed their site from scratch and ensured the end product mimicked the original design.'
+        },
+        {
+          id: 5,
+          featured: true,
+          projectName: 'Performant',
+          projectType: 'Client Work',
+          projectLink: 'https://performantrac.com/',
+          tech: [
+            'Javascript',
+            'SCSS',
+            'jQuery',
+            'Wordpress',
+            'PHP'
+          ],
+          featuredImage: performantFeatured,
+          imageGallery: [performant1, performant2, performant3],
+          projectDescription: 'Performant is a medical resource provider.  I developed their site using Photoshop Design Files.  As a requirement by the government that services customers with disabilities, Performant\'s new site had to follow 508 compliance standards which I was able to implement into the build.'
         }
       ]
     }

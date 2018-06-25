@@ -33,7 +33,7 @@
       border-bottom: 1px black solid;
       background: white; }
     .card-container .card-image {
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       padding: 150px 0;
