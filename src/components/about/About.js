@@ -10,7 +10,8 @@ class About extends React.Component {
     this.state = {
       description: "I'm a Frontend Web Developer based in Salt Lake City, Utah.  I love the challenge of coding and figuring out best practices of development and learning new tech. If you are interested in my work, feel free to contact me.",
       linkedin: 'https://www.linkedin.com/in/spencerkekauoha/',
-      email: 'mailto:spkekauoha@gmail.com'
+      email: 'mailto:spkekauoha@gmail.com',
+      github: 'https://github.com/SpencerKekauoha'
     }
   }
 
@@ -26,7 +27,8 @@ class About extends React.Component {
               <p>{this.state.description}</p>
               <div className="contact-info">
                 <h5>Contact me on <a href={this.state.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a></h5>
-                <h5>or send me an <a href={this.state.email}>email</a></h5>
+                <h5>View my <a href={this.state.github} target="_blank" rel="noopener noreferrer">Github</a></h5>
+                <h5>Or send me an <a href={this.state.email}>email</a></h5>
               </div>
             </div>
           </div>
