@@ -1,9 +1,12 @@
 nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   border-top: 1px black solid;
   border-bottom: 1px black solid;
-  padding: 25px 50px;
+  // padding: 25px 50px;
+  padding: 0px 50px;
+  height: 80px;
   position: relative;
 
   .home-link {
@@ -37,11 +40,15 @@ nav {
   }
 
   a {
+    position: relative;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
     color: black;
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
 
     @media only screen and (max-width: 768px) {
       font-size: 11px;
@@ -50,5 +57,15 @@ nav {
     &:nth-of-type(3) {
       margin-left: 30px;
     }
+  }
+
+  .active:before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background: rgb(47,127,255);
+    background: linear-gradient(162deg, rgba(47,127,255,1) 0%, rgba(74,247,207,1) 100%);
+    z-index: -1;
   }
 }
