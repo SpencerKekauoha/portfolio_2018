@@ -29,6 +29,14 @@ import performantFeatured from '../../assets/img/performant_featured.png';
 import performant1 from '../../assets/img/performant_1.png';
 import performant2 from '../../assets/img/performant_2.png';
 import performant3 from '../../assets/img/performant_3.png';
+import edgeFeatured from '../../assets/img/edge_featured.png';
+import edge1 from '../../assets/img/edge_1.png';
+import edge2 from '../../assets/img/edge_2.png';
+import edge3 from '../../assets/img/edge_3.png';
+import mcfFeatured from '../../assets/img/mcf_featured.png';
+import mcf1 from '../../assets/img/mcf_1.png';
+import mcf2 from '../../assets/img/mcf_2.png';
+import mcf3 from '../../assets/img/mcf_3.png';
 
 
 import './Nav.css';
@@ -143,6 +151,40 @@ class Nav extends React.Component {
           featuredImage: performantFeatured,
           imageGallery: [performant1, performant2, performant3],
           projectDescription: 'Performant is a medical resource provider.  I developed their site using Photoshop Design Files.  As a requirement by the government that services customers with disabilities, Performant\'s new site had to follow 508 compliance standards which I was able to implement into the build.'
+        },
+        {
+          id: 6,
+          featured: true,
+          projectName: 'Edgewater',
+          projectType: 'Client Work',
+          projectLink: 'http://escapetoedgewater.com/',
+          tech: [
+            'Javascript',
+            'SCSS',
+            'jQuery',
+            'Wordpress',
+            'PHP'
+          ],
+          featuredImage: edgeFeatured,
+          imageGallery: [edge1, edge2, edge3],
+          projectDescription: 'Escapes at Edgewater is a new housing development located in Utah.  I developed their site to help them showcase their new homes and activities within the vicinity.'
+        },
+        {
+          id: 7,
+          featured: true,
+          projectName: 'Edgewater',
+          projectType: 'Client Work',
+          projectLink: 'http://escapetoedgewater.com/',
+          tech: [
+            'Javascript',
+            'SCSS',
+            'jQuery',
+            'Wordpress',
+            'PHP'
+          ],
+          featuredImage: mcfFeatured,
+          imageGallery: [mcf1, mcf2, mcf3],
+          projectDescription: 'Escapes at Edgewater is a new housing development located in Utah.  I developed their site to help them showcase their new homes and activities within the vicinity.'
         }
       ]
     }
