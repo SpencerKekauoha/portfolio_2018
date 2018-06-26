@@ -63,7 +63,7 @@ class Nav extends React.Component {
           ],
           featuredImage: dailyBriefFeatured,
           imageGallery: [dailyBriefHome, dailyBriefTasks, dailyBriefFinished],
-          projectDescription: 'To learn React, I decided to build a simple app that gives you your daily morning briefing. The app has a couple routes that feature a to-do list page and a weather forecast page.'
+          projectDescription: 'To learn React, I decided to build an app that gives you your daily morning briefing. The app has a couple routes that feature a to-do list page and a weather forecast page.'
         },
         {
           id: 1,
@@ -172,9 +172,9 @@ class Nav extends React.Component {
         {
           id: 7,
           featured: true,
-          projectName: 'Edgewater',
+          projectName: 'Workstyle Alignment',
           projectType: 'Client Work',
-          projectLink: 'http://escapetoedgewater.com/',
+          projectLink: 'https://workstylealignment.com/',
           tech: [
             'Javascript',
             'SCSS',
@@ -184,7 +184,7 @@ class Nav extends React.Component {
           ],
           featuredImage: mcfFeatured,
           imageGallery: [mcf1, mcf2, mcf3],
-          projectDescription: 'Escapes at Edgewater is a new housing development located in Utah.  I developed their site to help them showcase their new homes and activities within the vicinity.'
+          projectDescription: 'To introduce their new software and book, The McFletcher Corporation came to Fluid to help build a new site.  I developed their site in components so the client is able to set up pages in different ways.'
         }
       ]
     }
