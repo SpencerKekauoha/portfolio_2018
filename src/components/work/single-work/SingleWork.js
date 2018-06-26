@@ -1,6 +1,5 @@
 import React from 'react';
 
-import ImageGrid from '../image-grid/ImageGrid';
 import './single-work.css';
 
 class SingleWork extends React.Component {
@@ -52,7 +51,9 @@ class SingleWork extends React.Component {
               {techList}
             </div>
           </div>
-          <ImageGrid images={project.imageGallery}></ImageGrid>
+          <div className="full-screen">
+            <img src={project.fullScreen} alt=""/>
+          </div>
         </div>
          : 'Loading'
     )

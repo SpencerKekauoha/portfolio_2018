@@ -97,3 +97,13 @@
     height: 25px;
     padding: 5px 15px;
     margin: 0 10px 20px 10px; }
+  .single-project .full-screen {
+    display: flex;
+    justify-content: center;
+    max-width: 835px; }
+    .single-project .full-screen img {
+      align-self: center;
+      width: 100%;
+      height: auto;
+      border: 1px black solid;
+      border-radius: 5px; }
