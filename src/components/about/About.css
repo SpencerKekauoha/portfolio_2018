@@ -5,6 +5,7 @@
   padding: 100px 0;
   height: 100%; }
   .about .about-card {
+    position: relative;
     padding: 60px 0;
     max-width: 835px;
     width: 100%;
@@ -12,10 +13,19 @@
     margin-right: 50px;
     background: white;
     border: 1px black solid;
-    border-radius: 5px;
-    -webkit-box-shadow: 8px 9px 0px 3px #ededed;
-    -moz-box-shadow: 8px 9px 0px 3px #ededed;
-    box-shadow: 8px 9px 0px 3px #ededed; }
+    border-radius: 5px; }
+    .about .about-card:before {
+      content: '';
+      position: absolute;
+      max-width: 835px;
+      width: 100%;
+      height: 100%;
+      top: 8px;
+      left: 9px;
+      border-radius: 5px;
+      background: #2f7fff;
+      background: linear-gradient(162deg, #2f7fff 0%, #4af7cf 100%);
+      z-index: -1; }
   .about .about-information {
     position: relative;
     display: flex;
