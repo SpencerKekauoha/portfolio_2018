@@ -24,6 +24,9 @@ import performantScreen from '../../assets/img/performant_screen_capture.png';
 import edgewaterScreen from '../../assets/img/edgewater_screen_capture.png';
 import mcfScreen from '../../assets/img/mcfletcher_screen_capture.png';
 
+import badgeCompass from '../../assets/img/badge_compass.png';
+import badgeLetters from '../../assets/img/badge_letters.png';
+
 
 
 
@@ -183,7 +186,10 @@ class Nav extends React.Component {
       <HashRouter>
         <main>
           <nav>
-            <NavLink activeClassName="active" className="home-link" to="/"></NavLink>
+            <NavLink activeClassName="active" className="home-link" to="/">
+              <img className="compass" src={badgeCompass} alt="Badge"/>
+              <img className="letters" src={badgeLetters} alt="Badge"/>
+            </NavLink>
             <NavLink activeClassName="active" className="link" to="/work">WORK</NavLink>
             <NavLink activeClassName="active" className="link" to="/about">GET IN TOUCH</NavLink>
           </nav>

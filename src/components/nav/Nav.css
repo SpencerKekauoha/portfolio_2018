@@ -24,14 +24,20 @@ nav {
     background-position: right 0;
     background-repeat: no-repeat;
     transition: background 0.5s ease-in-out; }
-    @media only screen and (max-width: 768px) {
-      nav .home-link {
-        height: 50px;
-        width: 50px;
-        bottom: -25px;
-        left: 30px; } }
     nav .home-link:hover {
       background-position: 0 0; }
+      nav .home-link:hover .compass {
+        animation: compass 2s infinite; }
+
+@keyframes compass {
+  0%, 100% {
+    transform: rotate(180deg); }
+  50% {
+    transform: rotate(90deg); } }
+    nav .home-link img {
+      position: absolute;
+      width: 75px;
+      height: 75px; }
   nav a {
     position: relative;
     font-weight: bold;
